@@ -1,0 +1,179 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext ");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	overflow-x: hidden;
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+}
+
+._container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+/* --------header-------- */
+
+.header {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	vertical-align: middle;
+	background-color: #4a4545;
+	padding: 50px;
+}
+
+.header__logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10%;
+	color: #f76ceea4;
+	padding-right: 10px;
+}
+.header__menu {
+}
+.menu {
+	display: inline-block;
+	width: 80%;
+}
+.menu__list {
+	text-align: center;
+}
+.menu__item {
+	vertical-align: middle;
+	width: 15%;
+	display: inline-block;
+}
+
+.menu__list:not(:last-child) {
+	padding-right: 10px;
+}
+
+.menu__link {
+	color: rgb(117, 147, 147);
+}
+
+/* main */
+
+.main {
+	padding: 117px 0 0 0;
+}
+
+/* text */
+
+.text {
+	padding: 150px 50px;
+	letter-spacing: 2px;
+	background-color: rgb(144, 105, 56);
+}
+
+/* ------------who-we-are--------------- */
+
+.who-we-are {
+	font-size: 0;
+	padding-bottom: 100px;
+}
+.who-we-are__container {
+}
+
+.who-we-are__block {
+	background-color: #5d62b5;
+	padding: 100px 87px 0 87px;
+	margin-top: -80px;
+	position: relative;
+	border-radius: 40px;
+}
+.block-who-we-are {
+}
+
+.who-we-are__info {
+	/* margin-bottom: 54px; */
+	max-width: 880px;
+}
+.info {
+	color: #fff;
+	font-size: 16px;
+}
+.info__subtitle {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+	max-width: 583px;
+}
+.info__title {
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	max-width: 583px;
+	margin-bottom: 36px;
+}
+.info__text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.who-we-are__img-block {
+	max-width: 880px;
+	margin: 0 auto;
+	transform: translateY(120px);
+	/* margin-top: -120px; */
+}
+.who-we-are__img {
+	border-radius: 40px;
+	box-shadow:
+		0px 16px 24px 0px rgba(38, 38, 38, 0.2),
+		0px 8px 16px 0px rgba(38, 38, 38, 0.24);
+	width: 100%;
+}
